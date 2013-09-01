@@ -1,15 +1,22 @@
-
+@media only screen and (max-width: 400px) {
+	body { font-size:115%;}
+}
 
 /* Page Common */
 
-body { padding-top: 55px; }
+body { 
+	padding-top: 55px; 
+}
+
+p {
+	color: #444444;
+}
 
 /* Navigation */
 
 .navbar {
 	border-top: 5px solid #ffdd55;
 	padding: 0 8%;
-
 }
 
 .invite {
@@ -46,12 +53,17 @@ body { padding-top: 55px; }
 /* CTA Top Section */
 
 .sec-cta {
-	padding: 50px 0;
+	padding: 6% 0%;
+}
+
+.sec-cta .left-cta,
+.sec-cta .right-cta {
+	margin: auto;
+	padding: 50px 4% 50px 7%;
 }
 
 .left-cta {
 	text-align: left;
-	padding: 100px 60px;
 }
 
 .left-cta h1 {
@@ -66,16 +78,9 @@ body { padding-top: 55px; }
 .right-cta {
 	text-align: center;
 	border-left: 1px solid #DFDFDF;
-	padding-top: 80px;
-	padding-bottom: 50px;
-}
-
-.right-cta p {
-	color: #888888;
 }
 
 .right-cta .cta-text{
-	margin-left: 50px;
 	text-align: left;
 }
 
@@ -133,7 +138,25 @@ body { padding-top: 55px; }
 /* Product Pitch */
 
 .sec-pitch {
-	padding: 100px;
+	padding: 4% 8%;
+	text-align: center;
+}
+
+.sec-pitch .bullets div {
+	padding: 4% 2%;
+}
+
+.sec-pitch .bullets div div {
+	border: 1px solid #DFDFDF;
+	padding: 50px 25px;
+}
+
+.sec-pitch .bullets div div:hover {
+	border-bottom: 5px solid #DFDFDF;
+}
+
+.sec-pitch .bullets div div p {
+	text-align: left;
 }
 
 /* Footer */
@@ -142,6 +165,9 @@ footer {
 	background-color: #2b2b2b;
 	padding: 50px;
 	text-align: center;
-	color: #ebebeb;
+}
+
+footer p {
+	color: #DFDFDF;
 }
 
