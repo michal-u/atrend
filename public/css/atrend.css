@@ -6,10 +6,12 @@
 
 body { 
 	padding-top: 55px; 
+	font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 p {
 	color: #444444;
+	font-size: 14px
 }
 
 /* Navigation */
