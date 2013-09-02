@@ -142,6 +142,16 @@ p {
 	text-align: center;
 }
 
+.sec-pitch h3 {
+	color: #444444;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.sec-pitch .about {
+	font-size: 17px;
+}
+
 .sec-pitch .bullets div {
 	padding: 4% 2%;
 }
@@ -155,10 +165,133 @@ p {
 	border-bottom: 5px solid #DFDFDF;
 }
 
+.sec-pitch h4 {
+	color: #2b2b2b;
+	font-weight: bold;
+}
+
 .sec-pitch .bullets div div p {
 	text-align: left;
 }
 
+/* Crowdfunding */
+
+.values {
+	padding-right: 35px;
+	margin-top: -10px;
+}
+
+.values h3 {
+	color: #444444;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.values h4 {
+	color: #444444;
+	border-left: 4px solid #2ad4ff;
+	padding-left: 10px;
+}
+
+.values .note {
+	color: #555555;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.crowdfunding {
+	padding: 4% 8% 2% 8%;
+	border-top: 1px solid #acacac;
+	-moz-box-shadow: inset 0 0 20px #666666; 
+	-webkit-box-shadow: inset 0 0 20px #666666;
+	box-shadow: inset 0 0 20px #666666;
+}
+
+.crowdfunding .row div {
+	margin-bottom: 20px;
+}
+
+.forms,
+.forms-btc {
+	border: 2px solid #acacac;
+	background-color: #444444;
+}
+
+.forms {
+	padding: 15px 25px 60px 25px;
+}
+
+.forms h3 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.forms .input-group {
+	margin-bottom: 25px;
+}
+
+.forms .input-lg,
+.forms .input-group-addon {
+	border-color: #444444;
+}
+
+.forms .input-group-addon {
+	background-color: #2ad4ff;
+}
+
+.forms .glyphicon {
+	color: #DFDFDF;
+}
+
+.forms p {
+	color: #DFDFDF;
+}
+
+.crowdfunding .btn {
+	background-color: #ffdd55;
+	border-color: #ffd42a;
+	color: #444444;
+	font-weight: bold;
+}
+
+.crowdfunding .btn:hover,
+.crowdfunding .btn:active {
+	background-color: #ffe680;
+	border-color: #ffdd55;
+	color: #fff;
+}
+
+.forms-btc {
+	padding: 20px 25px 5px 25px;
+}
+
+.forms-btc h4 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.forms-btc p {
+	color: #fff;
+	font-size: 13px;
+}
+
+.forms span,
+.forms-btc .yellow {
+	color: #ffe680;
+}
+
+.divider {
+	color: #acacac;
+}
+
+.progress-bar-success {
+	background-color: #55ddff;
+}
+
+.forms-btc .terms {
+	color: #DFDFDF;
+	font-size: 12px
+}
 /* Footer */
 
 footer {
