@@ -11,7 +11,7 @@ body {
 
 p {
 	color: #444444;
-	font-size: 14px
+	font-size: 14px;
 }
 
 /* Navigation */
@@ -243,6 +243,8 @@ p {
 
 .forms .glyphicon {
 	color: #DFDFDF;
+	max-width: 25px;
+	max-height: 25px;
 }
 
 .forms p {
